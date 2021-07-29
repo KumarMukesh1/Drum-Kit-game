@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-color:rgba(10, 59, 40, 0.692);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    margin: 80px auto 0 auto;
+    font-weight: bolder;
+    line-height: 100px;
+    background-color: azure;
+    height: 90px;
+    width: 350px;
+    padding-bottom: 6px;
+    border-radius: 1rem;
+}
+.drum {
+    margin: 120px 50px 50px auto;
+    width: 90px;
+    height: 90px;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border-color: black;
+    
+}
+button:hover {
+    color:gold;
+
+}
+h1:hover {
+    color:white;
+    background-color:black;  
+}
+p {
+    height: 100px;
+    width: 100px;
+    font-size: 5rem;
+    margin: 20px auto 0 auto;
+}
+.c {
+    background-image: url('images/crash.png');
+    background-size: cover;
+}
+.k {
+    background-image: url('images/kick.png');
+    background-size: cover;
+}
+.s {
+    background-image: url('images/snare.png');
+    background-size: cover;
+}
+.a {
+    background-image: url('images/tom1.png');
+    background-size: cover;
+}
+.b {
+    background-image: url('images/tom2.png');
+    background-size: cover;
+}
+.d {
+    background-image: url('images/tom3.png');
+    background-size: cover;
+}
+.e {
+    background-image: url('images/tom4.png');
+    background-size: cover;
+}
+.pressed {
+    box-shadow: 5px 4px 4px 5px chartreuse;
+    opacity: 0.6;
+}
